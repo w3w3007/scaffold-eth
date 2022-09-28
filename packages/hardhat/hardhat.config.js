@@ -22,7 +22,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "condor";
+const defaultNetwork = "localhost";
 
 function mnemonic() {
   try {
